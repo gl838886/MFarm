@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe52568ef16d01448b3918ed8ad342c, type: 3}
+  m_Name: BagItemList_SO
+  m_EditorClassIdentifier: 
+  bagItemList:
+  - itemID: 1007
+    itemCount: 50
+  - itemID: 1042
+    itemCount: 3
+  - itemID: 1003
+    itemCount: 1
+  - itemID: 1042
+    itemCount: 75
+  - itemID: 1037
+    itemCount: 5
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 1013
+    itemCount: 1
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0
+  - itemID: 0
+    itemCount: 0

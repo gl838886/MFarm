@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a821bc0bfcddf5e4e878e382919b3fee, type: 3}
+  m_Name: ScheduleDataList_SO
+  m_EditorClassIdentifier: 
+  scheduleDetailsList:
+  - hour: 12
+    minute: 30
+    day: 0
+    priority: 0
+    season: 0
+    targetScene: 01_Field
+    targetGridPosition: {x: 4, y: -11}
+    animationClipAtStop: {fileID: 7400000, guid: 54d560542c0284c169c56cddc7145ac6, type: 2}
+    isInteractable: 1
+  - hour: 7
+    minute: 5
+    day: 0
+    priority: 0
+    season: 0
+    targetScene: 02_Home
+    targetGridPosition: {x: 19, y: -7}
+    animationClipAtStop: {fileID: 7400000, guid: db32c3897ab64466f86a8993b8e48f9e, type: 2}
+    isInteractable: 1

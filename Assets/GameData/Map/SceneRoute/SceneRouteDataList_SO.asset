@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8cefc666d36c4742a2dfdbf7b0d3928, type: 3}
+  m_Name: SceneRouteDataList_SO
+  m_EditorClassIdentifier: 
+  sceneRouteList:
+  - fromScene: 01_Field
+    goToScene: 02_Home
+    pathList:
+    - sceneName: 02_Home
+      fromGridCell: {x: 19, y: -16}
+      goToGridCell: {x: 9999, y: 9999}
+    - sceneName: 01_Field
+      fromGridCell: {x: 9999, y: 9999}
+      goToGridCell: {x: -6, y: -7}
+  - fromScene: 02_Home
+    goToScene: 01_Field
+    pathList:
+    - sceneName: 01_Field
+      fromGridCell: {x: -6, y: -7}
+      goToGridCell: {x: 9999, y: 9999}
+    - sceneName: 02_Home
+      fromGridCell: {x: 9999, y: 9999}
+      goToGridCell: {x: 19, y: -16}
+  - fromScene: 01_Field
+    goToScene: 03_Stall
+    pathList:
+    - sceneName: 03_Stall
+      fromGridCell: {x: -1, y: -20}
+      goToGridCell: {x: 9999, y: 9999}
+    - sceneName: 01_Field
+      fromGridCell: {x: 9999, y: 9999}
+      goToGridCell: {x: -13, y: 9}
+  - fromScene: 03_Stall
+    goToScene: 01_Field
+    pathList:
+    - sceneName: 01_Field
+      fromGridCell: {x: -13, y: 9}
+      goToGridCell: {x: 9999, y: 9999}
+    - sceneName: 03_Stall
+      fromGridCell: {x: 9999, y: 9999}
+      goToGridCell: {x: -1, y: -20}
+  - fromScene: 00_Start
+    goToScene: 01_Field
+    pathList:
+    - sceneName: 01_Field
+      fromGridCell: {x: -19, y: -7}
+      goToGridCell: {x: 9999, y: 9999}
+    - sceneName: 00_Start
+      fromGridCell: {x: 9999, y: 9999}
+      goToGridCell: {x: 17, y: -15}
+  - fromScene: 01_Field
+    goToScene: 00_Start
+    pathList:
+    - sceneName: 01_Field
+      fromGridCell: {x: 9999, y: 9999}
+      goToGridCell: {x: -19, y: -7}
+    - sceneName: 00_Start
+      fromGridCell: {x: 17, y: -15}
+      goToGridCell: {x: 9999, y: 9999}

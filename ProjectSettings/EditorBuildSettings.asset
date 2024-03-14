@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/PersistentScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/01_Field.unity
+    guid: d17b287ff828b6e4c95206923e425598
+  - enabled: 1
+    path: Assets/Scenes/02_Home.unity
+    guid: 9f01777d75b1b8845b69e5932991099a
+  - enabled: 1
+    path: Assets/Scenes/UI.unity
+    guid: b9ecfa5a067480e4981f52f2f3c7b604
+  - enabled: 1
+    path: Assets/Scenes/00_Start.unity
+    guid: 221774f2febda6c449ab1ecaa060196c
+  - enabled: 1
+    path: Assets/Scenes/03_Stall.unity
+    guid: ff43e86ef2b96564e9b293cdbf89fc7c
+  m_configObjects: {}
